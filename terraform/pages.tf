@@ -19,9 +19,11 @@ resource "cloudflare_pages_project" "blog_pages_project" {
   }
 
   build_config {
-    build_command   = "hugo --gc --minify"
-    destination_dir = "public"
-    root_dir        = "hugo"
+    build_command       = "hugo --gc --minify"
+    destination_dir     = "public"
+    root_dir            = "hugo"
+    web_analytics_tag   = "860fdc0261c14a20b2cbc622cfe5c730"
+    web_analytics_token = "2c9efb4bb9ba4e6abbbccd744bf5852f"
   }
 
   deployment_configs {
