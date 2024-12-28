@@ -10,3 +10,6 @@ tf_plan: terraform
 
 tf_deploy: tf_plan
 	source ./env && cd terraform && terraform apply
+
+dev:
+	cd hugo && hugo server
