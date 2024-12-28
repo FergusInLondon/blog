@@ -59,4 +59,4 @@ piwik                  = false                         # If true, Piwik integrat
 utterances = true
 utterances_repo = "FergusInLondon/blog"
 
-avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+avatar                 = "img/profile.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
