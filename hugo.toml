@@ -1,4 +1,4 @@
-baseurl             = "https://you.github.io/"
+baseurl             = "https://blog.fergus.london/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"

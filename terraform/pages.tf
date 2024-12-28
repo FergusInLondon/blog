@@ -20,8 +20,8 @@ resource "cloudflare_pages_project" "blog_pages_project" {
 
   build_config {
     build_command   = "hugo --gc --minify"
-    destination_dir = "public"
-    root_dir        = ""
+    destination_dir = "hugo/public"
+    root_dir        = "hugo"
   }
 
   deployment_configs {
