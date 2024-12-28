@@ -1,2 +1,4 @@
-terraform/
-public/
+terraform/.terraform/
+terraform/*.tfstate*
+hugo/public/
+hugo/.hugo_build.lock
