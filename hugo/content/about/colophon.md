@@ -9,16 +9,12 @@ aliases = [
 
 +++
 
-This website is a personal homepage.
+This blog was built using open source software and is available in its entirety - content, configuration, and conversations - on GitHub.
 
-- This site is **built** using [Hugo](https://gohugo.io) - a static site generator written in Go.
-- It's **infrastructure** is configured using Terraform which can be viewed at [FergusInLondon/blog:terraform](https://github.com/FergusInLondon/blog/tree/master/terraform).
-- You can **comment** on it thanks to [utteranc.es](https://utteranc.es).
-- It's **theme** is a slightly modified version of the [cocoa](http://github.com/nishanths/cocoa-hugo-theme) theme.
+Specifically, the site is generated using Hugo and the cocoa theme (with some _minor_ alterations).
 
+All updates are automatically deployed via Cloudflare Pages, and all infrastructure (incl. DNS records) is managed via Terraform.
 
-The primary font face is Open Sans and the monospace font face is Ubuntu Mono. The social icons are from the Ionicons font set. CSS classes for code syntax highlighting are inserted during compile-time by Hugo using Pygments.
+Discussions and reactions are powered via Giscus.
 
-For further details, check out the [FergusInLondon/blog](https://github.com/FergusInLondon/blog) repository on Github.
-
-If you find errors, please let me know.
+For full details checkout the repository on GitHub.
