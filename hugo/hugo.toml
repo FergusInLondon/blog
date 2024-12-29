@@ -56,7 +56,9 @@ piwik                  = false                         # If true, Piwik integrat
 # piwik_url            = "//www.example.com/piwik/"    # URL to your Piwik installation. Must End with a slash
 # piwik_id             = 2                             # Id of your site in Piwik
 
-utterances = true
-utterances_repo = "FergusInLondon/blog"
+giscus = true
+giscus_repo = "FergusInLondon/blog"
+giscus_repo_id = "R_kgDONjVcJA"
+giscus_category_id = "DIC_kwDONjVcJM4ClmMu"
 
 avatar                 = "img/profile.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)

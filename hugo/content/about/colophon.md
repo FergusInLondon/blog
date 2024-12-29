@@ -9,12 +9,12 @@ aliases = [
 
 +++
 
-This blog was built using open source software and is available in its entirety - content, configuration, and conversations - on GitHub.
+This blog was built using open source software and is available in its entirety - content, configuration, and conversations - on [GitHub](https://github.com/FergusInLondon/blog).
 
-Specifically, the site is generated using Hugo and the cocoa theme (with some _minor_ alterations).
+Specifically, the site is generated using [Hugo](https://gohugo.io/) and the [cocoa](https://github.com/nishanths/cocoa-hugo-theme) theme (with some _minor_ alterations).
 
-All updates are automatically deployed via Cloudflare Pages, and all infrastructure (incl. DNS records) is managed via Terraform.
+All updates are automatically deployed via [Cloudflare Pages](https://pages.cloudflare.com/), and all infrastructure (incl. DNS records) is managed via [Terraform](https://www.terraform.io/).
 
-Discussions and reactions are powered via Giscus.
+Discussions and reactions are powered via [Giscus](https://giscus.app/).
 
-For full details checkout the repository on GitHub.
+For full details checkout the [repository on GitHub](https://github.com/FergusInLondon/blog).
