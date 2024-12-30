@@ -29,6 +29,11 @@ variable "cloudflare_analytics_site_token" {
   type = string
 }
 
+variable "cloudflare_redirects_are_permanent" {
+  type    = bool
+  default = false
+}
+
 provider "cloudflare" {
   api_token = var.cloudflare_api_token
 }
