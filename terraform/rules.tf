@@ -1,15 +1,37 @@
-import {
-  to = cloudflare_page_rule.forward_www
-  id = "7a847173e5a8749b39a424aded4f3172/46bdcdc98f315d710927555dfac7e05e"
+# Note: The endpoint for PageRules does not yet support "Account Owned
+# Tokens". So this means that the API tokens used by Terraform MUST be
+# User Owned currently... as I learnt after an hour of frustration.
+# (30/12/2024)
+#
+# It's recent enough that there's no Google results for it, but it looks
+#  like this:
+#
+# and can be fixed by using an user owned token (via the user settings of
+# the admin console).
+#
+# @see https://blog.cloudflare.com/account-owned-tokens-automated-actions-zaraz/
+# @see https://developers.cloudflare.com/fundamentals/api/get-started/account-owned-tokens/
+resource "cloudflare_page_rule" "forward_www" {
+  for_each = toset([
+    "www.fergus.london/", "fergus.london/"
+  ])
+
+  zone_id = data.cloudflare_zones.blog_cf_zone.zones[0].id
+  target  = each.key
+
+  actions {
+    forwarding_url {
+      url         = "https://blog.fergus.london/"
+      status_code = var.cloudflare_redirects_are_permanent ? 301 : 302
+    }
+  }
 }
 
-import {
-  to = cloudflare_page_rule.forward_naked
-  id = "7a847173e5a8749b39a424aded4f3172/e967dbfc5ece07f36bb7b63204c6b1ce"
+resource "cloudflare_page_rule" "force_https" {
+  zone_id = data.cloudflare_zones.blog_cf_zone.zones[0].id
+  target  = "http://*fergus.london/*"
+
+  actions {
+    always_use_https = true
+  }
 }
-
-# Redirect www.fergus.london -> blog.fergus.london
-resource "cloudflare_page_rule" "forward_www" {}
-
-# Redirect fergus.london -> blog.fergus.london
-resource "cloudflare_page_rule" "forward_naked" {}
