@@ -22,11 +22,11 @@ variable "cloudflare_account_id" {
 }
 
 variable "cloudflare_analytics_site_tag" {
-  type    = string
+  type = string
 }
 
 variable "cloudflare_analytics_site_token" {
-  type    = string
+  type = string
 }
 
 provider "cloudflare" {

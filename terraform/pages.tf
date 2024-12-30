@@ -19,7 +19,7 @@ resource "cloudflare_pages_project" "blog_pages_project" {
   }
 
   build_config {
-    build_command       = "hugo --gc --minify"
+    build_command       = "bash ./deploy.sh"
     destination_dir     = "public"
     root_dir            = "hugo"
     web_analytics_tag   = var.cloudflare_analytics_site_tag
