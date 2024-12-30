@@ -25,6 +25,10 @@ resource "cloudflare_page_rule" "forward_www" {
       status_code = var.cloudflare_redirects_are_permanent ? 301 : 302
     }
   }
+
+  lifecycle {
+    ignore_changes = [priority]
+  }
 }
 
 resource "cloudflare_page_rule" "force_https" {
@@ -33,5 +37,9 @@ resource "cloudflare_page_rule" "force_https" {
 
   actions {
     always_use_https = true
+  }
+
+  lifecycle {
+    ignore_changes = [priority]
   }
 }
