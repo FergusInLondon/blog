@@ -1,4 +1,11 @@
 terraform {
+  cloud {
+    organization = "FergusInLondon"
+    workspaces {
+      name = "blog"
+    }
+  }
+
   required_providers {
     cloudflare = {
       source  = "cloudflare/cloudflare"
