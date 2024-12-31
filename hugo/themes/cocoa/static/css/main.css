@@ -726,3 +726,24 @@ section.main .content .markdown tbody tr:nth-child(odd) td,
 section.main .content .markdown tbody tr:nth-child(odd) th {
   background-color: #f7f7f7;
 }
+
+p.back-to-posts {
+  clear: both;
+}
+
+section.main .content .markdown ul.tags {
+  margin-bottom: 5rem;
+}
+
+section.main .content .markdown ul.tags > li {
+  list-style: none;
+  float: left;
+  margin: 0 .5rem;
+  display: block;
+  background: rgb(177, 172, 172);
+  padding: 0.25rem 0.5rem;
+}
+
+section.main .content .markdown ul.tags > li a {
+  color: #FFF;
+}
