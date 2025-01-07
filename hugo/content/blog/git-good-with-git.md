@@ -1,7 +1,12 @@
-+++
-date = 2018-07-17T13:12:00Z
-title = "You should probably learn how Git works."
-+++
+---
+title: "You should probably learn how Git works."
+date: 2018-07-17T13:12:00Z
+categories:
+  - development
+tags:
+  - git
+  - learning
+---
 
 Imagine a carpenter who couldn't use a chisel, or a plumber who didn't understand piping. A pretty ludicrous thought, right? After all, those are key parts of the job. In a rather familiar story though, Software Development breaks the norms.. Strap yourselves in, this could be a long one.
 

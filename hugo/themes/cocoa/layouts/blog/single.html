@@ -9,7 +9,11 @@
                     <div class="initials"><a href="{{ .Site.BaseURL }}">{{ .Site.Params.Initials }}</a></div>
                 </div>
                 <div class="meta">
-                    <div class="reading-time">Posted in Category on&nbsp;</div>
+                    <div class="reading-time">Posted in {{ range .GetTerms "categories" }}
+                        "<a href="{{ .RelPermalink }}" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
+                        {{- lower .LinkTitle -}}
+                      </a>"
+                    {{ end }} on&nbsp;</div>
                     {{ if and .Site.Params.dateformfull .Site.Params.dateform }}
                     <div class="date" title='{{ .Date.Format .Site.Params.dateformfull }}'>{{ .Date.Format .Site.Params.dateform }}</div>
                     {{ else }}
@@ -24,7 +28,7 @@
             <div class="markdown">
                 {{ .Content }}
                 {{ partial "tags.html" .}}
-                <p class="back-to-posts"><a {{ printf "href=%q" ("/blog" | relLangURL) | safeHTMLAttr }}>{{ i18n "backToPosts" }}</a></p>
+                <p class="back-to-posts"><a {{ printf "href=%q" ("/blog" | relLangURL) | safeHTMLAttr }}>&Larr; {{ i18n "backToPosts" }}</a></p>
             </div>
             <br>
             {{ if .Site.Params.giscus }}

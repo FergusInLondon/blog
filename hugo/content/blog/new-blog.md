@@ -1,10 +1,13 @@
-+++
-date = "2024-12-28T22:14:14-00:00"
-draft = false
-title = "New Year? New Blog!"
-slug = 'hello-year-new-blog'
-
-+++
+---
+title: "New Year? New Blog!"
+date: 2024-12-28T22:14:14-00:00
+slug: "hello-year-new-blog"
+categories:
+  - misc
+tags:
+  - blogging
+  - site
+---
 
 
 Yeah, it's that time of year... _again_.

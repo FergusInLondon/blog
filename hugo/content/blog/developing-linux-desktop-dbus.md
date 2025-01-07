@@ -1,7 +1,12 @@
-+++
-date = "2017-11-04T19:30:00+00:00"
-title = "Developing for Linux on the Desktop: dbus"
-+++
+---
+title: "Developing for Linux on the Desktop: dbus"
+date: 2017-11-04T19:30:00+00:00
+categories:
+  - development
+tags:
+  - linux
+  - dbus
+---
 
 I've previously written about how I feel Linux is a great OS for developers: it's insanely configurable, it's easy to customise, there are distributions to suit whichever level of stability you require, and the community around it is thriving. But what about developing _for_ Linux, as opposed to _on_ Linux?
 

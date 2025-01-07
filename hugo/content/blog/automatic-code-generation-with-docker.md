@@ -1,7 +1,12 @@
-+++
-title = "Automating Code Generation With Docker"
-date = "2019-04-11T04:21:57+01:00"
-+++
+---
+title: "Automating Code Generation With Docker"
+date: "2019-04-11T04:21:57+01:00"
+categories:
+  - development
+tags:
+  - docker
+  - golang
+---
 
 Code generation can be really useful; need to generate some models from an OpenAPI spec or a Protocol Buffer definition? No problem! Unfortunately in a team environment this can pose a few problems though: What happens when new members of staff join the team and have newer versions of the generation tools? Should generated files be checked in source control - and if so, how can you ensure that no manual modifications are present?
 

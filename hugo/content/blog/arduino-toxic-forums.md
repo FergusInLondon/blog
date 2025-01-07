@@ -1,7 +1,6 @@
 ---
 title: "Arduino: The community that lost it's way"
 date: "2021-03-18T09:19:29-04:00"
-description: "Why the Arduino forums are toxic."
 categories:
   - misc
 tags:

@@ -1,7 +1,13 @@
-+++
-title = "My testing workflow: mixing TDD and BDD for a unique blend"
-date = "2021-06-24T20:52:00-00:00"
-+++
+---
+title: "My testing workflow: mixing TDD and BDD for a unique blend"
+date: "2021-06-24T20:52:00-00:00"
+categories:
+  - development
+tags:
+  - testing
+  - tdd
+  - bdd
+---
 
 A few years ago it felt like automated testing was similar to teenagers discussing sex: whilst there was lots of talk and claims of prowess, in reality very few actually *did it*. In a similar vein, most *are* doing it now: but does that mean they're doing it well?
 

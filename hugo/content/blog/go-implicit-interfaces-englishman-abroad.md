@@ -1,7 +1,13 @@
-+++
-title = "Go: Implicit Interfaces and being an Englishman Abroad"
-date = 2018-10-30T09:19:29-04:00
-+++
+---
+title: "Go: Implicit Interfaces and being an Englishman Abroad"
+date: 2018-10-30T09:19:29-04:00
+categories:
+  - development
+tags:
+  - golang
+  - design
+  - interfaces
+---
 
 One of the biggest things I struggled with when I began writing Go was how exactly interfaces were meant to work. Although the concept was already very familiar, I couldn't get my head around all the buzz over "*implicit interfaces*". Gee, the compiler basically writes `implements MyIFace` for me... not exactly earth-shattering!
 
