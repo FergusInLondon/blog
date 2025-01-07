@@ -1,7 +1,13 @@
-+++
-title = "Go: Easy data transformations via composition"
-date = "2019-03-11T09:31:27+01:00"
-+++
+---
+title: "Go: Easy data transformations via composition"
+date: "2019-03-11T09:31:27+01:00"
+categories:
+  - development
+tags:
+  - golang
+  - json
+  - api
+---
 
 I enjoy writing *Go*. It lacks the magic and obfuscation present in other languages, whilst possessing an intuitive syntax that still allows the concise expression of complex ideas. It's awesome.
 

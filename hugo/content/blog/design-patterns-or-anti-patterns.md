@@ -1,7 +1,12 @@
-+++
-date = "2017-04-07T12:18:00Z"
-title = "When \"Design Patterns\" become \"Anti-patterns\""
-+++
+---
+title: "When \"Design Patterns\" become \"Anti-patterns\""
+date: 2017-04-07T12:18:00Z
+categories:
+  - development
+tags:
+  - design
+  - learning
+---
 
 As a software engineer, learning about design patterns was a kind of "*Eureka*" moment. It was the moment where I finally began to look at architectural issues, and how to structure a piece of software.
 

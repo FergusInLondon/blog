@@ -1,9 +1,12 @@
-+++
-author = "Fergus"
-date = 2018-08-15T05:44:42Z
-tags = ["europol", "crime"]
-title = "You can help Europol fight Child Sexual Exploitation"
-+++
+---
+title: "You can help Europol fight Child Sexual Exploitation"
+date: 2018-08-15T05:44:42Z
+categories:
+  - misc
+tags:
+  - europol
+  - crime
+---
 
 Child Sexual Exploitation (CSE) affects the youngest and most vulnerable in society; with risk factors including emotional instability, social isolation, poverty and prior histories of abuse, it's not difficult to imagine how cases can often go undetected.
 

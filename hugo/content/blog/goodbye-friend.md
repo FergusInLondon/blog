@@ -1,11 +1,13 @@
-+++
-author = "Fergus"
-draft = true
-date = 2017-08-04T11:30:00Z
-image = "https://images.unsplash.com/photo-1472566316349-bce77aa2a778?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&s=77974de15deacb35de40c9b56c84a98b"
-tags = ["bereavement"]
-title = "On Losing a Friend: Goodbye, Charlie - You were one of a kind."
-+++
+---
+title: "On Losing a Friend: Goodbye, Charlie - You were one of a kind."
+date: 2017-08-04T11:30:00Z
+categories:
+  - misc
+tags:
+  - loss
+  - grief
+draft: true
+---
 
 I write this post not only with a heavy heart, but also an overwhelming sense of sheer numbness. Recently the world got a little lonelier, and it lost a real character too. In the past week I lost my best friend: one of the best I could ever ask for.
 

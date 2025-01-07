@@ -1,8 +1,12 @@
-+++
-title = "Arduino: The community that lost it's way"
-date = "2021-03-18T09:19:29-04:00"
-description = "Why the Arduino forums are toxic."
-+++
+---
+title: "Arduino: The community that lost it's way"
+date: "2021-03-18T09:19:29-04:00"
+categories:
+  - misc
+tags:
+  - community
+  - arduino
+---
 
 When it comes to open source hardware, Arduino is a huge success story: a project that sparked an ecosystem, and one that has broad appeal amongst beginners and advanced users alike. I purchased my first Arduino board - a *Duemilanove* - in 2009, and have since been building up a sizable treasure trove of various components and controllers.
 
