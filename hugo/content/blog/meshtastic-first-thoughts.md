@@ -50,10 +50,6 @@ Although there's a vibrant community of users on [/r/meshtastic](https://www.red
 
 I was pleasantly surprised to see quite a few nodes within range when I initially booted my device up... and although I wouldn't describe the default channel as "lively", there are certainly messages exchanged on a daily basis.
 
-
-
----
-
 [^1]: These messages are available on Github in protobuf format - [meshtastic/protobufs](https://github.com/meshtastic/protobufs).
 
 [^2]: This presents an interesting dilemma for those holding an amatuer radio license: in some (most?) regions a condition of your license is not to transmit encrypted communications. Meshtastic actually provides a "licensed" mode which essentially isolates the user from communicating with unlicensed nodes, and prevents the retransmission of encrypted messages... neither of which are great for either the user _or_ the network. 
@@ -61,5 +57,3 @@ I was pleasantly surprised to see quite a few nodes within range when I initiall
 [^3]: This may well be exasperated by the hop limits impacting the retransmission of messages originating from that mesh.
 
 [^4]: Location telemetry is optional, and there are different levels of granularity that you can set - meaning you can randomise your location to within a specific distance of your "true" location.
-
-
